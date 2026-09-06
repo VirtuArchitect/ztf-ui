@@ -1,5 +1,15 @@
 # ZTF-Orchestrator · v1.8.1
 
+![ZTF-Orchestrator visual tour](docs/assets/readme/ztf-orchestrator-visual-tour.gif)
+
+<p>
+  <a href="https://virtuarchitect.github.io/ZTF-Orchestrator/"><strong>Try the static demo</strong></a>
+  &nbsp;|&nbsp;
+  <a href="docs/demo/README.md">Demo and simulator guide</a>
+  &nbsp;|&nbsp;
+  <a href="docs/production-readiness-boundary.md">Validation boundary</a>
+</p>
+
 A web-based installer and configuration orchestrator for the
 [Nutanix ZeroTouch Framework](https://github.com/nutanixdev/zerotouch-framework)
 and guided
@@ -8,7 +18,9 @@ automation via the optional
 [NKP ZeroTouch Framework](https://github.com/VirtuArchitect/nkp-zerotouch-framework)
 integration.
 
-Unofficial community framework orchestration. This project is not affiliated with or supported by Nutanix.
+> ZTF-Orchestrator is an independent community operations layer for Nutanix
+> automation workflows. It is not affiliated with or supported by Nutanix, and
+> production use requires environment-specific validation.
 
 ## Appliance Downloads
 
@@ -22,6 +34,19 @@ binaries, check CLI compatibility, submit execution jobs, capture validation
 evidence, track output, detect drift, schedule repeatable tasks, request
 approvals, and review audit history without every operator working directly in
 Git, YAML, and CLI commands.
+
+## What Problem Does This Solve?
+
+ZeroTouch Framework is powerful automation, but operational teams often need
+more than a CLI invocation and a YAML file. They need guided inputs, reviewable
+configuration, approval gates, durable job logs, failure context, evidence
+capture, and a clear boundary between simulated, lab, controlled UAT, and
+production validation.
+
+ZTF-Orchestrator adds that operations layer. It helps teams make Nutanix
+automation easier to run, easier to govern, and easier to trust without hiding
+the generated YAML or bypassing the underlying ZeroTouch Framework execution
+model.
 
 ## At A Glance
 
@@ -44,6 +69,20 @@ or NKP targets.
 
 For scope and evidence boundaries, see the
 [demo and simulator guide](docs/demo/README.md).
+
+## Product Screenshots
+
+| Dashboard | YAML Studio |
+|---|---|
+| ![Dashboard readiness and operations queue](docs/assets/readme/dashboard.png) | ![YAML Studio configuration editor](docs/assets/readme/yaml-studio.png) |
+
+| Approvals | Jobs and Queue |
+|---|---|
+| ![Approval queue and governance state](docs/assets/readme/approvals.png) | ![Durable job queue and execution history](docs/assets/readme/jobs-queue.png) |
+
+| Validation Evidence | Native Foundation Planning |
+|---|---|
+| ![Validation evidence and readiness capture](docs/assets/readme/validation-evidence.png) | ![Native Foundation Deploy planning and dry-run configuration](docs/assets/readme/native-foundation-planning.png) |
 
 ## How It Works
 
