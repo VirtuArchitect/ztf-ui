@@ -3,7 +3,7 @@
 ![ZTF-Orchestrator visual tour](docs/assets/readme/ztf-orchestrator-visual-tour.gif)
 
 <p>
-  <a href="docs/assets/video/ztf-orchestrator-product-demo-90s-pro.mp4"><strong>Watch the 90-second demo</strong></a>
+  <a href="docs/assets/video/ztf-orchestrator-product-demo-90s-pro.mp4?raw=1"><strong>Watch the 90-second demo</strong></a>
   &nbsp;|&nbsp;
   <a href="https://virtuarchitect.github.io/ZTF-Orchestrator/"><strong>Try the static demo</strong></a>
   &nbsp;|&nbsp;
@@ -12,7 +12,7 @@
   <a href="docs/production-readiness-boundary.md">Validation boundary</a>
 </p>
 
-[![Watch the 90-second ZTF-Orchestrator product demo](docs/assets/video/ztf-orchestrator-product-demo-90s-pro-poster.png)](docs/assets/video/ztf-orchestrator-product-demo-90s-pro.mp4)
+[![Watch the 90-second ZTF-Orchestrator product demo](docs/assets/video/ztf-orchestrator-product-demo-90s-pro-poster.png)](docs/assets/video/ztf-orchestrator-product-demo-90s-pro.mp4?raw=1)
 
 A web-based installer and configuration orchestrator for the
 [Nutanix ZeroTouch Framework](https://github.com/nutanixdev/zerotouch-framework)
